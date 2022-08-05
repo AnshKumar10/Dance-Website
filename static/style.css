@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: #4a4a4a;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li{
+    list-style: none;
+    padding: 15px 20px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Jost', sans-serif;
+}
+
+#navbar ul li a:hover{
+    color: black;
+}
+
+#intro{
+    background: center/cover no-repeat url(/static/bg.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro div h1,
+#intro div h2{
+    color: white;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+#intro div h1{
+    font-size: 2.5rem;
+}
+
+#intro div h2{
+    font-size: 2rem;
+}
+
+#mission{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mission h1{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.card div{
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 90%;
+    padding: 0 20px;
+    margin: 10px 20px;
+}
+
+.card div h3{
+    padding-top: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.card div p{
+    font-size:0.9rem;
+    padding: 10px 0;
+    font-family: serif;
+}
+
+#footer{
+    height: 40px;
+    background-color: #4a4a4a;
+}
+
+#footer p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    padding-top: 5px;
+}
